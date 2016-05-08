@@ -4,19 +4,19 @@ public class Province {
 	private int id;
 	private String provinceName;
 	private String provinceCode;
-	public int getID()
+	public int getId()
 	{
 		return id;
 	}
 	public void setId(int Id)
 	{
-		this.id=id;
+		this.id=Id;
 	}
 	public String getProvinceName()
 	{
 		return provinceName;
 	}
-	public void setProvinceNanme(String ProvinceName)
+	public void setProvinceName(String ProvinceName)
 	{
 		this.provinceName=ProvinceName;
 	}
